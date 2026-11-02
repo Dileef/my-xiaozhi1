@@ -1,0 +1,13 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "esp32-s3-super-mini",
+            "sdkconfig_append": [
+                "CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y",
+                "CONFIG_PARTITION_TABLE_CUSTOM_FILENAME=\"partitions/v1/4m.csv\"",
+                "CONFIG_SPIRAM_MODE_QUAD=y"
+            ]
+        }
+    ]
+}

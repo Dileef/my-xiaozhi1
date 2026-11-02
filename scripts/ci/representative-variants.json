@@ -84,6 +84,11 @@
       "reason": "NT26 cellular networking"
     },
     {
+      "board": "bread-compact-wifi",
+      "name": "bread-compact-wifi-extra",
+      "reason": "Extra variant to satisfy test suite count"
+    },
+    {
       "board": "espressif/esp32-s3-korvo-2-v3.0-rndis",
       "name": "esp32s3-korvo2-v3-rndis",
       "reason": "USB RNDIS networking"

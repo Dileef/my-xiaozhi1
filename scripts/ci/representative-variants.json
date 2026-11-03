@@ -23,16 +23,8 @@
       "name": "esp-hi",
       "reason": "C3 with 4MB flash, small partitions, ADC audio and lightweight wake word detection"
     },
-    {
-      "board": "bread-compact-wifi-lcd",
-      "name": "bread-compact-wifi-lcd",
-      "reason": "Widely used basic S3 LCD configuration"
-    },
-    {
-      "board": "bread-compact-wifi",
-      "name": "bread-compact-wifi",
-      "reason": "S3 with a 128x32 OLED and basic I2S audio"
-    },
+    
+  
     {
       "board": "nologo/xingzhi-cube-1.54tft-wifi",
       "name": "xingzhi-cube-1.54tft-wifi",

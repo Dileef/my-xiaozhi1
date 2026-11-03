@@ -29,6 +29,11 @@
       "reason": "Widely used basic S3 LCD configuration"
     },
     {
+      "board": "bread-compact-wifi",
+      "name": "bread-compact-wifi",
+      "reason": "S3 with a 128x32 OLED and basic I2S audio"
+    },
+    {
       "board": "nologo/xingzhi-cube-1.54tft-wifi",
       "name": "xingzhi-cube-1.54tft-wifi",
       "reason": "Widely used Xingzhi S3 board with Wi-Fi and LCD"

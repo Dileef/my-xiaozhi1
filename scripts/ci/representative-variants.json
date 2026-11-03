@@ -23,8 +23,11 @@
       "name": "esp-hi",
       "reason": "C3 with 4MB flash, small partitions, ADC audio and lightweight wake word detection"
     },
-    
-  
+    {
+      "board": "bread-compact-wifi-lcd",
+      "name": "bread-compact-wifi-lcd",
+      "reason": "Widely used basic S3 LCD configuration"
+    },
     {
       "board": "nologo/xingzhi-cube-1.54tft-wifi",
       "name": "xingzhi-cube-1.54tft-wifi",
@@ -80,7 +83,6 @@
       "name": "bread-compact-nt26",
       "reason": "NT26 cellular networking"
     },
-   
     {
       "board": "espressif/esp32-s3-korvo-2-v3.0-rndis",
       "name": "esp32s3-korvo2-v3-rndis",

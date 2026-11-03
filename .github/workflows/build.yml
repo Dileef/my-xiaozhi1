@@ -13,12 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Dependencies via Apt
-        run: |
-          apt-get update && apt-get install -y python3-click python3-yaml
-
       - name: Compile Firmware and Merge Bin
+        shell: bash
         run: |
+          . /opt/esp/idf/export.sh
           python3 scripts/build.py bread-compact-wifi --name bread-compact-wifi
 
       - name: Upload Compiled Firmware (.bin)

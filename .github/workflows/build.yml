@@ -13,6 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install Python Dependencies
+        run: |
+          pip install --no-cache-dir click || python3 -m pip install click
+
       - name: Compile Firmware and Merge Bin
         run: |
           python3 scripts/build.py bread-compact-wifi --name bread-compact-wifi

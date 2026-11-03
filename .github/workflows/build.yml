@@ -13,10 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pip and Dependencies
+      - name: Install Dependencies via Apt
         run: |
-          apt-get update && apt-get install -y python3-pip
-          python3 -m pip install --no-cache-dir click
+          apt-get update && apt-get install -y python3-click
 
       - name: Compile Firmware and Merge Bin
         run: |

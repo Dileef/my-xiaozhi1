@@ -1,6 +1,6 @@
 {
     "name": "bread-compact-wifi",
-    "type": "",
+    "type": "board",
     "target": "esp32s3",
     "builds": [
         {

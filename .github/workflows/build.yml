@@ -16,7 +16,13 @@ jobs:
       - name: Compile Firmware and Merge Bin
         shell: bash
         run: |
+          # Source the official ESP-IDF environment script
           . /opt/esp/idf/export.sh
+          
+          # Set the required CONFIG environment variable for the board
+          export CONFIG=bread-compact-wifi
+          
+          # Run the build script
           python3 scripts/build.py bread-compact-wifi --name bread-compact-wifi
 
       - name: Upload Compiled Firmware (.bin)
